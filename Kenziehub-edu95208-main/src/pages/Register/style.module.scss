@@ -1,0 +1,16 @@
+.heardCad {
+    display: flex;
+    gap: 11.5rem;
+    margin: 2rem;
+}
+
+@media (max-width:430px) {
+    .heardCad {
+        display: flex;
+        gap: 9rem;
+        margin-right: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

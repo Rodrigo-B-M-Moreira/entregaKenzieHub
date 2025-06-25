@@ -1,0 +1,13 @@
+.titleinp {
+
+    font-family: var(--font-primary);
+    font-size: var(--headline);
+    font-style: normal;
+    font-weight: var(--Title-Weight4);
+    line-height: 0px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--Grey-0);
+}

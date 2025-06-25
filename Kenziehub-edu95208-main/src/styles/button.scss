@@ -1,0 +1,130 @@
+.buttonCdt {
+    display: flex;
+    width: 21rem;
+    height: 3rem;
+    padding: 0px 22.334px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.152px;
+
+    border-radius: 4px;
+    border: 1.218px solid var(--color-primary-negative);
+    background: var(--color-primary-negative);
+
+    color: var(--color);
+
+    font-family: var(--font-primary);
+    font-size: var(--paraghaph);
+    font-style: normal;
+    font-weight: var(--Title--Weight3);
+    line-height: 26.394px;
+}
+
+.buttonEnt {
+    background-color: var(--color-primary);
+    color: var(--Grey-0);
+    display: flex;
+    width: 335px;
+    height: 48px;
+    padding: 0px 22.334px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.152px;
+    border-radius: 5px;
+    margin-bottom: 19px;
+}
+
+.link {
+
+    color: var(--color);
+    background-color: var(--Grey-3);
+    text-decoration: none;
+    padding: 0px 16.243px;
+    height: 40.11px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+    font-family: var(--font-primary);
+    font-size: var(--headline);
+    font-style: normal;
+    font-weight: var(--Title-Weight2);
+    line-height: 28.425px;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.linkCad {
+
+    color: var(--color);
+    background-color: var(--Grey-1);
+    text-decoration: none;
+
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 335px;
+    height: 48px;
+    padding: 0px 22.334px;
+
+
+    font-family: var(--font-primary);
+    font-size: var(--headline);
+    font-style: normal;
+    font-weight: var(--Title-Weight2);
+    line-height: 28.425px;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.sair {
+    display: inline-flex;
+    height: 32px;
+    padding: 0px 16.243px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.152px;
+    flex-shrink: 0;
+
+    border-radius: 4px;
+    background: var(--Grey-3);
+    color: var(--Grey-0);
+}
+
+.btnAdd {
+    width: 32.485px;
+    height: 32px;
+    background-color: var(--Grey-3);
+    border-radius: 4px;
+    color: var(--Grey-0);
+
+}
+
+.btnAddC {
+    display: flex;
+    width: 264px;
+    height: 40px;
+    padding: 0px 22.334px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.152px;
+    border-radius: 4.061px;
+    border: 1.218px solid var(--color-primary);
+    background: var(--color-primary);
+    margin-left: 15px;
+
+    color: #FFF;
+
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    
+}

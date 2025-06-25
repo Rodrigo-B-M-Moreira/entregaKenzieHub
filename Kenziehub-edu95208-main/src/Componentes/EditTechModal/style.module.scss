@@ -1,0 +1,99 @@
+.everlayBox1 {
+
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .modalBox1{
+        background-color: var(--Grey-3);
+        max-width: 296px;
+        width: 100%;
+        max-height: 280px;
+        height: 100%;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .title1 {
+        background-color: var(--Grey-2);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        min-width: 296px;
+        height: 40px;
+        border-radius: 4px 4px 0px 0px;
+
+        gap: 5rem;
+    }
+
+    .info1 {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 180px;
+
+        & input {
+            display: flex;
+            height: 40px;
+
+            width: 264px;
+
+            border-radius: 4px;
+            background-color: var(--Grey-2);
+            border: 1.218px solid var(--grey-0);
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            color: var(--grey-0);
+            font-family: var(--font-primary);
+            font-size: 13.029px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21.173px;
+         
+        }
+
+        .option21 {
+            font-family: var(--font-primary);
+            font-size: var(--headline);
+            font-style: normal;
+            font-weight: var(--Title-Weight4);
+            line-height: 0px;
+        
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            color: var(--Grey-0);
+            .op21 {
+    
+                color: var(--Grey-1);
+                width: 264px;
+                height: 40px;
+                
+                align-items: center;
+                gap: 1rem;
+    
+                border-radius: 4px;
+                border: 1.218px solid var(--Grey-2);
+                background: var(--Grey-2);
+            }
+    
+        }
+    }
+
+}

@@ -1,0 +1,67 @@
+.techList {
+
+    max-width: 900px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%;
+   
+    
+    .titleTech {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 830px;
+        justify-content: space-between;
+        
+        
+    }
+  
+    & ul {
+        padding:  25px 25px 25px 25px;
+        background-color: var(--Grey-3);
+        border-radius: 4px;
+        max-width: 830px;
+        width: 100%;
+        max-height: 400px;
+        height: 100%;
+       margin-top: 1rem;
+    }
+
+    
+
+}
+@media (max-width:840px){
+    .techList {
+      
+    .titleTech {
+        
+        width: 100%;
+        max-width: 500px;
+       
+    }
+   ul {
+
+     
+       width: 100%;
+       max-width: 500px;
+    }    
+
+}}
+@media (max-width:530px){
+    .techList {
+      
+    .titleTech {
+        
+        width: 100%;
+        max-width: 300px;
+       
+    }
+   ul {
+
+     
+       width: 100%;
+       max-width: 300px;
+    }    
+
+}}
+
